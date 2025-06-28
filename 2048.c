@@ -118,7 +118,7 @@ bool slideArray(uint8_t array[SIZE], uint32_t *score)
         }
     }
     for(ii=0; ii<SIZE; ii++) {
-        if([array[ii] != a[ii]) {
+        if(array[ii] != a[ii]) {
             success = true;
             array[ii] = a[ii];
         }
